@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
-	<integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
-	<integer-array name="config_ambientBrighteningThresholds">
-		<item>150</item>
-		<item>200</item>
-		<item>200</item>
-		<item>300</item>
-		<item>400</item>
-		<item>500</item>
-		<item>600</item>
-		<item>800</item>
-	</integer-array>
-	<integer-array name="config_ambientDarkeningThresholds">
-		<item>100</item>
-		<item>150</item>
-		<item>200</item>
-		<item>300</item>
-		<item>400</item>
-		<item>400</item>
-		<item>500</item>
-		<item>600</item>
-	</integer-array>
+  	<integer-array name="config_ambientBrighteningThresholds">
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+      <item>100</item>
+  </integer-array>
+  
+  <integer-array name="config_ambientDarkeningThresholds">
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+      <item>200</item>
+  </integer-array>
+  
+  <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
+  <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
+  <!--
 	<array name="config_autoBrightnessDisplayValuesNits">
 		<item>3.0</item>
 		<item>3.5</item>
@@ -134,4 +137,5 @@
 		<item>985.7</item>
 		<item>1000.0</item>
 	</array>
+  -->
 </resources>
